@@ -1,0 +1,68 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .menu-bar {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .menu-bar button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #e1e1e1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .menu-bar button:hover {
+    background-color: #d1d1d1;
+  }
+
+  .status {
+    margin-left: auto;
+    align-self: center;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .editor {
+    flex-grow: 1;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    border: none;
+    resize: none;
+  }
+
+
+  /* ... previous styles ... */
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .settings-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .settings-form button {
+    padding: 5px 10px;
+    background-color: #e1e1e1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .settings-form button:hover {
+    background-color: #d1d1d1;
+  }
