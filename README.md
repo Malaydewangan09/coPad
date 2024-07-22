@@ -1,4 +1,4 @@
-# CollabPad
+# CoPad
 
 CollabPad is a lightweight, versatile text editor designed for modern productivity. It combines the simplicity of a traditional text editor with powerful collaboration features and integrated email functionality.
 
